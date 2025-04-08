@@ -67,8 +67,6 @@ BUILD_DIR ?= $(ROOT_DIR)/build
 #
 #     -   Remove blank lines.
 #
-# @example
-# make build
 #/
 build:
 	$(QUIET) mkdir -p $(BUILD_DIR) && \
@@ -85,8 +83,6 @@ build:
 #/
 # Removes generated files.
 #
-# @example
-# make clean
 #/
 clean:
 	$(QUIET) rm -rf $(BUILD_DIR)

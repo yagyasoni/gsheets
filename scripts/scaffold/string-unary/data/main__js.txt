@@ -41,14 +41,6 @@ var __STDLIB_{{ALIAS_CONSTANTCASE}} = ns.string.tools.s_o( ns.string.{{ALIAS}} )
 * @param {string|Range<string>} value - input value(s)
 * @returns {string|Range<string>} results
 *
-* @example
-* STDLIB_{{ALIAS_CONSTANTCASE}}( {{VALUES_1}} )
-*
-* @example
-* STDLIB_{{ALIAS_CONSTANTCASE}}( A2:A100 )
-*
-* @example
-* STDLIB_{{ALIAS_CONSTANTCASE}}( A2:D100 )
 */
 function STDLIB_{{ALIAS_CONSTANTCASE}}( value ) {
 	if ( ns.assert.base.isArray( value ) ) {

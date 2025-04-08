@@ -44,17 +44,6 @@ var ns = require( '@stdlib/gsheets/namespace' ).CACHED;
 * @param {*} ninfValue - negative infinity option value
 * @returns {number|Range<number>} result(s)
 *
-* @example
-* STDLIB_{{ALIAS_CONSTANTCASE}}( {{VALUES_1}} )
-*
-* @example
-* STDLIB_{{ALIAS_CONSTANTCASE}}( A1:A100 )
-*
-* @example
-* STDLIB_{{ALIAS_CONSTANTCASE}}( A1:D100 )
-*
-* @example
-* STDLIB_{{ALIAS_CONSTANTCASE}}( A1:A100, "nan", "", "pinf", "", "ninf", "" )
 */
 function STDLIB_{{ALIAS_CONSTANTCASE}}( value, nonnumeric, nonnumericValue, nan, nanValue, pinf, pinfValue, ninf, ninfValue ) { // eslint-disable-line no-unused-vars
 	var args;
